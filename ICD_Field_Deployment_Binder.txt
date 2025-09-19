@@ -1,0 +1,31 @@
+
+# ICD Field Deployment Binder
+
+**Version 1.0 – May 2025**
+
+## Purpose
+
+This binder provides field-operational personnel with a distilled, secure-ready guide to ICD-compliant system deployment, validation, and redress in tactical environments.
+
+## Contents
+
+1. **Pre-Deployment Checklist**
+   - CRDS and SBOM validation
+   - Classification & ITAR verification
+   - Model red-team and test record
+
+2. **In-Field Protocols**
+   - Secure enclave provisioning (air-gapped / hardened node)
+   - Live model testing procedures
+   - Emergency override beacon signal triggers
+
+3. **Incident Response**
+   - Compromise indicators
+   - Authorized escalation chain
+   - Role-based override codes
+
+4. **Rapid Partner Access**
+   - Coalition Disclosure Tier cheat sheet
+   - Field-approved sharing boundaries
+
+*Retain physical + secure digital copies. Rotate every 6 months or by incident.*

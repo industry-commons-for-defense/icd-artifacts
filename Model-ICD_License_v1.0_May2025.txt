@@ -1,0 +1,99 @@
+
+# Model Industry Commons for Defense (Model-ICD) License
+
+**Version 1.0 – May 2025**
+
+---
+
+## 1. Purpose
+
+The Model-ICD License defines the terms for sharing, modifying, and deploying machine learning models and related artifacts within the Industry Commons for Defense (ICD). It enables trusted reuse of open or government-funded models while ensuring adversarial robustness, attribution, and sovereign control.
+
+---
+
+## 2. Scope
+
+This license applies to:
+- Pre-trained model weights
+- Fine-tuned derivatives
+- Model architectures and training configurations
+- Tokenizers and preprocessing pipelines
+- Quantized or embedded model variants
+
+It governs models trained under ICD programs or integrated into ICD-aligned software/hardware systems.
+
+---
+
+## 3. Rights Granted
+
+Contributors grant to the U.S. Government and ICD-aligned entities:
+- **Non-exclusive, irrevocable, worldwide, royalty-free rights** to use, modify, audit, test, and redeploy the model
+- **Redistribution rights** to coalition partners for aligned missions
+- **Right to embed models** into hardware or systems for edge deployment
+
+---
+
+## 4. Lineage Disclosure and Audit Requirements
+
+Each model must be accompanied by:
+- A full **Model Bill of Materials (MBOM)** including architecture, training dataset references, source code, and hash-verified weights
+- Disclosure of **open-source foundations or upstreams**
+- Training logs or reproducible configuration files
+- Identification of any synthetic, adversarial, or classified data used
+
+---
+
+## 5. Prohibited Practices
+
+Contributors may not:
+- Obscure the origin of open weights to assert false proprietary claims
+- Embed latent adversarial triggers or unverified third-party data
+- Deny access to weight files, architecture definitions, or inference APIs without cause
+- Prevent red-team validation or interpretability testing
+
+---
+
+## 6. Adversarial Safeguards Clause
+
+Models deployed in ICD-aligned systems must:
+- Undergo red-team testing prior to field use
+- Support explainability methods (e.g., SHAP, saliency maps) where mission-relevant
+- Allow internal audit teams to inspect neuron activation patterns for latent triggers
+
+---
+
+## 7. Emergency Reclaim Clause
+
+In the event of national security threat, adversarial compromise, or wartime declaration, the U.S. Government may:
+- **Seize full control of weights, training artifacts, and derivative models**
+- **Override commercial restrictions** for sovereign retraining or suppression
+- **Enforce public re-release** if model misuse endangers interoperability or trust
+
+---
+
+## 8. Compatibility
+
+Model-ICD is designed to be compatible with:
+- Apache 2.0, MIT, BSD
+- Creative Commons-Attribution (for datasets)
+- SW-ICD and HW-ICD license siblings
+- GPL/AGPL with proper disclosure and downstream transmission of obligations
+
+---
+
+## 9. Enforcement
+
+Violations may result in:
+- Model rights clawback and public re-release
+- Removal from ICD consortia and contracts
+- Escalation to OUSD(A&S), OGC, or NSC as applicable
+
+---
+
+## 10. Jurisdiction
+
+This license is governed by U.S. federal law and enforced by the ICD Steering Body with escalation provisions for national defense interest.
+
+---
+
+*Issued under the authority of the Industry Commons for Defense Steering Body.*

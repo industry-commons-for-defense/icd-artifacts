@@ -1,0 +1,99 @@
+
+# Data Industry Commons for Defense (Data-ICD) License
+
+**Version 1.0 – May 2025**
+
+---
+
+## 1. Purpose
+
+The Data-ICD License governs the use, sharing, and protection of data assets contributed to or generated within the Industry Commons for Defense (ICD). It ensures secure, traceable, and lawful handling of datasets, particularly in high-risk national security applications.
+
+---
+
+## 2. Scope
+
+This license applies to:
+- Raw datasets and structured data tables
+- Preprocessed, labeled, or synthetic datasets
+- Data used in model training, validation, or evaluation
+- Embedded data in sensor streams or telemetry
+- Government-furnished, contractor-collected, or partner-shared datasets
+
+---
+
+## 3. Rights Granted
+
+Contributors grant to the U.S. Government and ICD-aligned entities:
+- **Unlimited rights** to use, copy, preprocess, and annotate data
+- **Right to train and fine-tune models** using the data
+- **Right to redistribute** data for government or coalition mission use (subject to classification and releasability controls)
+
+---
+
+## 4. Required Disclosures
+
+Each dataset must include:
+- A complete **Data Bill of Materials (DBOM)**  
+- Source attribution and licensing history  
+- Provenance and chain of custody declarations  
+- Classification and dissemination markings, if applicable  
+- Declaration of any foreign data collection platforms or services used
+
+---
+
+## 5. Data Integrity and Security
+
+All data must:
+- Be scanned for known poisoning, backdoors, or hallucination risks  
+- Include validation hashes and lineage logs  
+- Be segregated by sensitivity level (e.g., Unclassified, CUI, SECRET)  
+- Comply with DoDI 5200.48 and EO 13556 for CUI protection
+
+---
+
+## 6. Foreign-Origin Disclosure Clause
+
+Any data with partial or full foreign origin (collection, processing, or platform) must:
+- Be tagged explicitly in the DBOM  
+- Undergo sovereign security review  
+- Be flagged for adversarial contamination potential
+
+---
+
+## 7. Emergency Use Clause
+
+During national emergencies or wartime:
+- The U.S. Government may extract, replicate, or redistribute any ICD-governed data  
+- Commercial constraints or embargoes are automatically suspended for defense purposes  
+- ICD Steering Body will oversee emergency data redistribution and operationalization
+
+---
+
+## 8. Compatibility
+
+The Data-ICD License is designed to interoperate with:
+- Creative Commons (CC BY, CC0)  
+- Open Data Commons licenses  
+- ICD Model and Software licenses  
+- U.S. Government Purpose Rights and DFARS clauses
+
+---
+
+## 9. Violations and Enforcement
+
+Violations may trigger:
+- Data rights clawback  
+- Declassification of hidden proprietary formats  
+- Disqualification from ICD data handling roles  
+- Referral to DoD legal and cybersecurity authorities
+
+---
+
+## 10. Jurisdiction
+
+This license is governed by U.S. federal law and enforced by the ICD Steering Body, with escalation to relevant defense oversight bodies if necessary.
+
+---
+
+*Issued under the authority of the Industry Commons for Defense Steering Body.*

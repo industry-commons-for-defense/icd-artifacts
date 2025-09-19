@@ -1,0 +1,74 @@
+
+# ICD Certification Authority Charter
+
+**Version 1.0 – May 2025**
+
+---
+
+## 1. Purpose
+
+To formally establish the authority, roles, and procedures of the **ICD Certification Authority (ICD-CA)**, responsible for certifying contributors, integrators, and components as compliant with the Industry Commons for Defense (ICD) framework.
+
+---
+
+## 2. Organizational Role
+
+The ICD-CA functions as an independent body under the supervision of the ICD Steering Body, tasked with:
+- Evaluating adherence to ICD license terms (SW-ICD, HW-ICD, Model-ICD, Data-ICD)
+- Validating component lineage, compliance declarations, and trustworthiness
+- Issuing, revoking, and renewing ICD Certifications
+
+---
+
+## 3. Responsibilities
+
+### 3.1 Individual and Organizational Certification
+
+- Verify Human Role Disclosure Statements (HRDS)
+- Perform trust screening and background due diligence
+- Monitor compliance flags across component submissions
+
+### 3.2 Component Certification
+
+- Confirm proper registration via CRDS and SBOM/MBOM/DBOM/HBOM inclusion
+- Ensure metadata tagging for classification, ITAR, and export status
+- Coordinate with red teams and audit teams for adversarial testing
+
+---
+
+## 4. Certification Categories
+
+- **ICD-Compliant Contributor**
+- **Trusted ICD Integrator**
+- **Certified Model / Software / Hardware / Dataset**
+- **Coalition-Releasable Component (Tiered Certification)**
+
+---
+
+## 5. Revocation and Appeals
+
+The ICD-CA may revoke certification based on:
+- Proven violations of licensing terms
+- Failure to remediate audit findings
+- Evidence of adversarial compromise
+
+Revocation decisions may be appealed to the ICD Steering Body within 30 calendar days.
+
+---
+
+## 6. Governance and Oversight
+
+- ICD-CA leadership is appointed by the ICD Steering Body and approved via supermajority vote
+- The authority maintains secure, auditable records of all certifications and violations
+- Annual reports are issued to ICD participants and DoD oversight offices
+
+---
+
+## 7. Confidentiality and Legal Alignment
+
+- ICD-CA processes comply with applicable U.S. federal laws, DFARS clauses, and export control regimes
+- Sensitive certification decisions involving classified systems are coordinated with proper disclosure offices
+
+---
+
+*Chartered under the governance of the Industry Commons for Defense Steering Body*

@@ -1,0 +1,27 @@
+
+# ICD Partner Onboarding Kit
+
+**Version 1.0 – May 2025**
+
+## Welcome to the Industry Commons for Defense (ICD)
+
+This kit provides onboarding materials for allied, coalition, and commercial partners seeking participation in the ICD ecosystem.
+
+## Contents
+
+1. Overview of ICD Mission and Licensing Structure
+2. Compliance Requirements
+   - CRDS / HRDS submission
+   - Audit and red-team cooperation
+   - Metadata tagging (classification & export)
+3. Access Tiers
+   - Disclosure Tier Table
+   - Federated toolchains
+4. Certification Process
+   - Trusted Integrator status
+   - Component validation and lineage review
+5. Contact Information and Submission Gateways
+
+All partners must acknowledge the ICD Code of Stewardship and submit initial CRDS forms within 30 days of provisional access.
+
+*Issued under ICD Certification Authority*

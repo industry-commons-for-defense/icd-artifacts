@@ -1,0 +1,52 @@
+
+# ICD Code Rights Disclosure Statement (CRDS-Code)
+
+**Version 1.0 – May 2025**
+
+---
+
+## 1. Software Component Overview
+
+- **Component Name:**  
+- **Version/Commit Hash:**  
+- **Repository URL:**  
+- **Language/Platform:**  
+
+---
+
+## 2. Licensing and IP Structure
+
+- **Declared License (SPDX format):**  
+- **Open Source Upstreams Used (name + license):**  
+- **Proprietary Modules or Dependencies:**  
+- **License Compatibility Verified?** [Yes / No]  
+
+---
+
+## 3. Development Origin and Rights
+
+- **Funding Source:** [Gov-Funded / IRAD / Mixed / Commercial]  
+- **Gov Purpose Rights Clause Triggered:** [Yes / No]  
+- **Software Developed Under OTA / FAR / SBIR / Other?** [Specify]
+
+---
+
+## 4. Security and Releaseability
+
+- **Known Restrictions on Scanning or Reverse Engineering?** [Yes / No]  
+- **Use of Encrypted, Obfuscated, or Obscured Segments?** [Yes / No – Describe]  
+- **Export Classification or Releasability Notes:**  
+
+---
+
+## 5. Attestation
+
+I affirm the above statements reflect an accurate and lawful disclosure of rights, obligations, and structure under the ICD SW-ICD framework.
+
+| Name | Title | Organization | Signature | Date |
+|------|-------|--------------|-----------|------|
+|      |       |              |           |      |
+
+---
+
+*Filed in accordance with ICD Software Licensing and Provenance Requirements*

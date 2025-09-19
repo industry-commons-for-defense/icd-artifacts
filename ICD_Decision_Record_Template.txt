@@ -1,0 +1,78 @@
+
+# ICD Decision Record Template
+
+**Document ID:** DR-ICD-YYYY-XXX  
+**Date Issued:** [YYYY-MM-DD]  
+**Steering Body Cycle:** [e.g., Q2 2025]
+
+---
+
+## 1. Title
+
+*Concise title of the proposal or decision under review*
+
+---
+
+## 2. Authors and Proposers
+
+- **Lead Author(s):** [Name, Organization]  
+- **Contributors/Reviewers:** [Optional]
+
+---
+
+## 3. Context and Background
+
+*Brief summary of the issue, opportunity, or problem this decision addresses. Reference any prior records, discussions, or related proposals.*
+
+---
+
+## 4. Proposal Summary
+
+*What action is being proposed? What new policy, clause, structure, or component is introduced or modified?*
+
+---
+
+## 5. Justification
+
+*Why is this proposal necessary? Include technical, legal, operational, or strategic rationale.*
+
+---
+
+## 6. Alternatives Considered
+
+*List and briefly describe other options that were evaluated and reasons for rejection or deferral.*
+
+---
+
+## 7. Decision and Outcome
+
+- **Decision Type:** [✅ Accepted / ❌ Rejected / 🔁 Deferred]  
+- **Voting Results:**  
+  - Total Voting Members: [X]  
+  - Votes For: [X]  
+  - Votes Against: [X]  
+  - Abstain: [X]
+
+---
+
+## 8. Implementation Plan
+
+*Describe how and when this decision will be operationalized. Include responsible working group(s), milestones, or follow-up tasks.*
+
+---
+
+## 9. Amendments or Revisions
+
+*Document any future updates to this decision record. Include DR ID references if superseded or amended.*
+
+---
+
+## 10. Signatories
+
+| Name | Organization | Role | Signature | Date |
+|------|--------------|------|-----------|------|
+|      |              |      |           |      |
+
+---
+
+*This document serves as the formal and binding record of decision within the ICD Steering Body governance process.*

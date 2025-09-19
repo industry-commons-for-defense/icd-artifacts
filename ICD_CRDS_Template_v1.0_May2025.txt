@@ -1,0 +1,62 @@
+
+# ICD Component Registration and Disclosure Statement (CRDS) Template
+
+**Version 1.0 – May 2025**
+
+---
+
+## 1. Component Overview
+
+- **Component Name:**  
+- **Version/Revision:**  
+- **Component Type:** [Software / Model / Hardware / Data]  
+- **Primary Function:**  
+- **ICD Licenses Applied:** [SW-ICD / HW-ICD / Model-ICD / Data-ICD]
+
+---
+
+## 2. Developer/Contributor Information
+
+- **Organization:**  
+- **Point of Contact (POC):**  
+- **ICD Membership Status:** [Certified / Pending / Revoked]
+
+---
+
+## 3. Lineage and Provenance
+
+- **Upstream Components or Tools Used:**  
+- **Open Source Foundations (with license):**  
+- **Proprietary Modules (if any):**  
+- **Training Data or Design Origin (for models/hardware):**
+
+---
+
+## 4. Compliance Declarations
+
+- ☐ SBOM / HBOM / MBOM / DBOM included  
+- ☐ Red-team testing completed  
+- ☐ Audit trail hash submitted  
+- ☐ Adversarial drift scan performed
+
+---
+
+## 5. Security and Classification
+
+- **Classification Level:** [Unclassified / CUI / SECRET / TOP SECRET]  
+- **ITAR Status:** [Exempt / Controlled / Requires Registration]  
+- **Exportability:** [Fully Releasable / Releasable with Restrictions / Not Releasable]
+
+---
+
+## 6. Certification and Attestation
+
+By submitting this CRDS, I affirm that the information is accurate, that all required disclosures are complete, and that this component complies with the terms of the applicable ICD licenses.
+
+| Name | Title | Organization | Signature | Date |
+|------|-------|--------------|-----------|------|
+|      |       |              |           |      |
+
+---
+
+*Submitted in accordance with ICD Steering Body Policy for Registry and Audit*

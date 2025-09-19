@@ -1,0 +1,30 @@
+
+# ICD Model Testing Guidance
+
+**Version 1.0 – May 2025**
+
+## Purpose
+
+This guide defines baseline and advanced procedures for validating machine learning models developed or integrated under the Industry Commons for Defense (ICD). It ensures adversarial robustness, performance reliability, and alignment with ICD licensing and national security mandates.
+
+## Core Testing Protocols
+
+1. **Functional Validation**
+   - Accuracy, precision, recall under mission-relevant tasks
+   - Dataset bias analysis
+
+2. **Adversarial Red-Teaming**
+   - Backdoor/Trojan trigger detection
+   - Gradient-based adversarial robustness testing (FGSM, PGD, DeepFool)
+
+3. **Lineage Reproduction**
+   - Re-training from declared upstreams using provided configs
+   - Hash-based weight verification
+
+4. **Interpretability and Traceability**
+   - Saliency map and SHAP analysis
+   - Internal layer activation consistency
+
+## Certification Requirement
+
+All Tier 0–2 models must pass minimum thresholds on these tests prior to deployment or disclosure. Artifacts must be submitted as part of CRDS and logged in the ICD Federated Audit Ledger.

@@ -1,0 +1,35 @@
+
+# ICD Red Team Activation Playbook
+
+**Version 1.0 – May 2025**
+
+## Purpose
+
+To standardize the initiation, execution, and reporting process for red-team evaluations of ICD-governed components.
+
+## Activation Triggers
+
+- Scheduled compliance check
+- Anomaly in model behavior or component performance
+- Coalition partner request for validation
+- Incident reported to ICD audit ledger
+
+## Red-Team Scope
+
+- Software: input fuzzing, logic manipulation, exploit search
+- Models: adversarial prompt injection, latent behavior triggering
+- Hardware: firmware backdoors, tamper testing
+- Data: poisoning detection, integrity drift
+
+## Execution Protocol
+
+1. Independent operator team with no development conflict
+2. Logging of all tests in secure audit enclave
+3. Report delivered with exploit severity classification
+4. Remediation window (typically 14–30 days)
+
+## Follow-Up
+
+Findings requiring immediate escalation trigger ICD Steering Body notification. Tier 0 component breaches result in automatic override eligibility.
+
+*Maintained by the ICD Enforcement Office*

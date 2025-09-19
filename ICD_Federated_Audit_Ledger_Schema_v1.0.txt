@@ -1,0 +1,73 @@
+
+# ICD Federated Audit Ledger Schema
+
+**Version 1.0 – May 2025**
+
+---
+
+## 1. Purpose
+
+To establish a decentralized, tamper-resistant schema for recording compliance, lineage, and security audit events across the Industry Commons for Defense (ICD) ecosystem.
+
+The Federated Audit Ledger enables trusted auditability across government, coalition, and industry partners—without central chokepoints or proprietary control.
+
+---
+
+## 2. Architecture
+
+- **Ledger Type:** Distributed append-only ledger (can be implemented using Merkle-tree based or blockchain-compatible structure)
+- **Validation:** Cryptographic hash signatures and timestamping
+- **Nodes:** Hosted by certified ICD audit authorities, defense primes, and coalition partners
+
+---
+
+## 3. Ledger Entry Schema
+
+Each audit event must conform to the following schema:
+
+```yaml
+entry_id: UUID
+timestamp: RFC3339
+component_id: [UUID or registry name]
+event_type: [registration | audit | red_team | violation | override | revocation]
+event_description: >
+  Freeform narrative of event or finding.
+linked_crds: [CRDS ID(s)]
+linked_hrds: [HRDS ID(s)]
+linked_sbom: [hash or URI]
+triggered_by: [manual | automated | external alert]
+action_taken: [none | remediation | revocation | override]
+classification: [U | CUI | S | TS]
+signed_by: [entity + key fingerprint]
+```
+
+---
+
+## 4. Event Types
+
+- **registration** – New CRDS/HRDS logged  
+- **audit** – Compliance audit performed  
+- **red_team** – Red-team vulnerability discovery or result  
+- **violation** – Confirmed license or security breach  
+- **override** – Emergency protocol invocation  
+- **revocation** – Certification or access revoked
+
+---
+
+## 5. Query and Replication
+
+- Access by role-based API with cryptographic proof of integrity
+- Replicated across secure ICD-certified nodes with quorum-based synchronization
+- Readable by designated coalition members per classification markings
+
+---
+
+## 6. Legal and Operational Safeguards
+
+- Operates under ICD governance with legal review from DoD OGC
+- Integrity validated through zero-knowledge snapshot proofs and audit sampling
+- Incident records must be retained for a minimum of 10 years
+
+---
+
+*Authorized under ICD Audit and Integrity Infrastructure Mandate*

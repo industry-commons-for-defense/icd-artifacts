@@ -1,0 +1,29 @@
+
+# ICD Joint Staff J6 Disclosure Summary
+
+**Version 1.0 – May 2025**
+
+## Audience
+
+Prepared for Joint Staff J6 planners and operations leads to coordinate secure, tiered ICD technology disclosures across Five Eyes and NATO interoperability missions.
+
+## Key Elements
+
+- ICD Coalition Disclosure Tiering Overview (Tiers 0–4)
+- JS J6 Disclosure Role: Oversight of classification + releasability metadata accuracy
+- Required Tools:
+  - Metadata schema integration in C2 systems
+  - Live registry access for audit + override logging
+  - Releasability validation toolchain for coalition shareables
+
+## Risk-Based Flag System
+
+| Tier | Color Code | JS J6 Oversight? |
+|------|------------|------------------|
+| 0    | 🔴 Red      | Full Required    |
+| 1    | 🟠 Orange   | Required         |
+| 2    | 🟡 Yellow   | Recommend        |
+| 3    | 🟢 Green    | Optional         |
+| 4    | 🔵 Blue     | Auto-approved    |
+
+*Brief every 90 days or following significant policy shift.*

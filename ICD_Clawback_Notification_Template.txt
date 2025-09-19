@@ -1,0 +1,79 @@
+
+# ICD Clawback Notification Template
+
+**Document ID:** CB-ICD-YYYY-XXX  
+**Date Issued:** [YYYY-MM-DD]  
+**Issued By:** [Authorized Representative, ICD Steering Body or DoD Oversight Entity]
+
+---
+
+## 1. Subject Entity
+
+- **Organization Name:**  
+- **Point of Contact:**  
+- **Role in ICD:** [Contributor / Integrator / Contractor / Vendor]
+
+---
+
+## 2. Triggering Clause
+
+*Identify the clause or obligation breached from the ICD license, consortium agreement, or governance charter.*
+
+Examples:
+- Violation of SW-ICD Section 4 (Lineage Disclosure)
+- Obfuscation of open weight derivation under Model-ICD
+- Unauthorized proprietary encapsulation under HW-ICD
+- Noncompliance with audit requests or SBOM requirements
+
+---
+
+## 3. Summary of Breach
+
+*Provide a concise but detailed description of the violation, including timeline, evidence, and specific components affected.*
+
+---
+
+## 4. Immediate Action Required
+
+- Cease deployment or distribution of affected systems or software
+- Provide complete lineage, design files, or source code within [X] days
+- Submit to audit or third-party verification
+- Suspend further use in ICD-aligned programs until remediation
+
+---
+
+## 5. Proposed Remedy or Sanction
+
+☐ Rights clawback under ICD license  
+☐ Public re-release of covered IP  
+☐ Revocation of ICD Certification  
+☐ Referral for legal action or debarment review  
+☐ Other: [Specify]
+
+---
+
+## 6. Remediation Window
+
+You are granted [X] calendar days from the issuance of this notice to comply with the above actions. Noncompliance will result in automatic enforcement of listed sanctions.
+
+---
+
+## 7. Response Instructions
+
+Submit all materials and responses to:
+
+**ICD Enforcement Coordination Office**  
+Email: enforcement@icd-defense.org  
+Secure Upload: [classified or CUI channels if applicable]
+
+---
+
+## 8. Signature and Authority
+
+| Name | Title | Organization | Signature | Date |
+|------|-------|--------------|-----------|------|
+|      |       |              |           |      |
+
+---
+
+*This notice is issued under the authority of the ICD Steering Body and in accordance with applicable federal law, ICD license terms, and consortium governance protocols.*

@@ -1,0 +1,75 @@
+
+# ICD Coalition Disclosure Tiers
+
+**Version 1.0 – May 2025**
+
+---
+
+## 1. Purpose
+
+To define tiered disclosure categories for sharing ICD-governed components with allied and coalition partners. This framework balances mission interoperability with national security and export control compliance.
+
+---
+
+## 2. Disclosure Tier Definitions
+
+### Tier 0 – U.S. Only (Restricted)
+
+- Shareable only with U.S. Government entities and cleared U.S. contractors  
+- Includes classified model weights, hardware schematics, and ITAR-critical datasets
+
+### Tier 1 – Five Eyes
+
+- Shareable with FVEY nations (UK, Canada, Australia, New Zealand)  
+- Must pass ICD security review and metadata tagging for ITAR/EAR compliance  
+- Redacted lineage or component substitution allowed to enable release
+
+### Tier 2 – NATO-Aligned
+
+- Shareable with NATO partners participating in joint programs or mission sets  
+- Requires partner-side attestation of secure handling and firewall isolation  
+- Access granted at modular interface or output level only (not full internals)
+
+### Tier 3 – Strategic Coalition Partners
+
+- Case-by-case disclosure to non-NATO strategic allies (e.g., Japan, Israel)  
+- Requires additional DoD review and releasability approval  
+- Controlled sandboxed access for testing, validation, or feedback loops only
+
+### Tier 4 – Open Global Release
+
+- Fully unclassified, SBOM-compliant, and license-verified components  
+- Publicly shareable under open-source or ICD-compatible dual licensing  
+- No restrictions on educational, humanitarian, or low-risk dual-use dissemination
+
+---
+
+## 3. Implementation and Tagging
+
+Each CRDS or HRDS must declare:
+
+```yaml
+coalition_disclosure_tier: [0 | 1 | 2 | 3 | 4]
+tier_rationale: >
+  Narrative justification based on classification, operational dependency, or partner integration plan.
+disclosure_approver: [DOD Office or ICD Certification Authority role]
+```
+
+---
+
+## 4. Controls and Revocation
+
+- Tiers may be escalated or revoked based on partner behavior, breach, or geopolitical change  
+- Override powers apply for urgent mission conditions  
+- Violations recorded in Federated Audit Ledger and may affect ICD trust status
+
+---
+
+## 5. Review Cycle
+
+- Disclosure tiering policy reviewed annually by ICD Steering Body  
+- Proposals for new partner tier creation must follow RFC process with 2/3 vote
+
+---
+
+*Filed under ICD Foreign Disclosure and Coalition Interoperability Policy*

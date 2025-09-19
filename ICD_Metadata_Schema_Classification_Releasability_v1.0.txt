@@ -1,0 +1,85 @@
+
+# ICD Metadata Schema: Classification, ITAR, and Releasability
+
+**Version 1.0 – May 2025**
+
+---
+
+## 1. Purpose
+
+To define a structured, machine-readable schema for tagging ICD-governed components (software, models, hardware, data) with metadata related to classification level, export control status (ITAR/EAR), and foreign military sales (FMS) releasability.
+
+---
+
+## 2. Schema Fields
+
+### 2.1 Classification Assertion
+
+```yaml
+classification_level: [U | CUI | S | TS]
+classification_authority: [DOD | DOE | NATO | ORG-CODE]
+derivative_classification_basis: [original | compiled | transformed]
+```
+
+- `U` – Unclassified  
+- `CUI` – Controlled Unclassified Information  
+- `S` – Secret  
+- `TS` – Top Secret
+
+---
+
+### 2.2 Export Control (ITAR / EAR)
+
+```yaml
+itar_status: [EXEMPT | ITAR_CONTROLLED | EAR_CONTROLLED]
+eccn_code: [e.g., 3D991, 5D002]  # Export Control Classification Number
+ddtc_registration_required: [true | false]
+foreign_origin_disclosure: [true | false]
+```
+
+- If `itar_status` = ITAR_CONTROLLED → DDTC oversight may apply  
+- `foreign_origin_disclosure` = true if data, models, or components include foreign-collected or foreign-processed material
+
+---
+
+### 2.3 Releasability and FMS Flags
+
+```yaml
+releasability_status: [UNRESTRICTED | PARTNER_RESTRICTED | NOT_RELEASABLE]
+fms_eligible: [true | false]
+release_notes: >
+  Freeform text describing releasability rationale or limitations.
+releasability_authority: [Agency or role approving dissemination decision]
+```
+
+---
+
+## 3. Implementation Guidelines
+
+- Metadata must be included in all CRDS/HRDS submissions, embedded in project manifests, and linked to deployment registries
+- YAML or JSON format preferred; embedded as part of SBOM/MBOM headers or sidecar files
+- Enforced through ICD Audit Protocol and Federated Releasability Checks
+
+---
+
+## 4. Example (Model Component)
+
+```yaml
+component_name: "ThreatClassifier-v3"
+component_type: "model"
+classification_level: "CUI"
+classification_authority: "DOD"
+itar_status: "ITAR_CONTROLLED"
+eccn_code: "5D002"
+ddtc_registration_required: true
+foreign_origin_disclosure: false
+releasability_status: "PARTNER_RESTRICTED"
+fms_eligible: false
+releasability_authority: "Joint Staff J6 Disclosure Officer"
+release_notes: >
+  Model embeds decision logic derived from OPFOR ISR streams; not authorized for general foreign disclosure.
+```
+
+---
+
+*Filed in accordance with ICD Metadata Interoperability and Export Compliance Policy*

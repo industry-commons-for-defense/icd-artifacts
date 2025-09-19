@@ -1,0 +1,61 @@
+
+# ICD Human Role Disclosure Statement (HRDS) Template
+
+**Version 1.0 – May 2025**
+
+---
+
+## 1. Role Summary
+
+- **Individual Name:**  
+- **Role Title:**  
+- **Affiliated Organization:**  
+- **ICD-Linked Activity:** [Model training / Integration / Governance / Audit / Red Teaming / Other]
+
+---
+
+## 2. Access and Control Points
+
+- **System or Dataset Access:**  
+- **Model Weight or Source Control:** [Yes / No]  
+- **Federated Sharing or Deployment Permissions:** [Yes / No]  
+- **Export-Controlled Interaction (FMS, ITAR, etc.):** [Yes / No – details below]
+
+---
+
+## 3. Trust Level and Authorization
+
+- **Security Clearance Level:**  
+- **ITAR Access Certification:** [Certified / Not Certified]  
+- **ICD Trust Qualification:** [Trusted Integrator / Gov-aligned / Coalition-Limited / Restricted]
+
+---
+
+## 4. Role Boundaries and Disclosure
+
+- **Operational Scope (limits of decision-making authority):**  
+- **Supervisory or Reporting Chain:**  
+- **Dual Employment or COI Risks Identified:** [Yes / No]  
+- **Known Previous Involvement with Adversarial-Affiliated Entities:** [If applicable, detail fully]
+
+---
+
+## 5. Classification and Export Controls
+
+- **Primary Role Classification Level:**  
+- **ITAR-Relevant Data Handled:**  
+- **Foreign National Interaction Clearance Required:** [Yes / No]
+
+---
+
+## 6. Attestation and Consent
+
+By submitting this HRDS, I affirm that the above information is accurate, complete, and made in good faith in accordance with ICD ethical and legal standards.
+
+| Name | Signature | Date | Authorizing Official |
+|------|-----------|------|-----------------------|
+|      |           |      |                       |
+
+---
+
+*Filed in accordance with ICD Personnel and Role Integrity Safeguard Protocol*

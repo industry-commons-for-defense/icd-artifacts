@@ -1,0 +1,52 @@
+
+# ICD Hardware Rights Disclosure Statement (HRDS-HW)
+
+**Version 1.0 – May 2025**
+
+---
+
+## 1. Hardware Component Overview
+
+- **Component Name:**  
+- **Version/Revision:**  
+- **ICD Alignment:** [HW-ICD Compliant / Legacy Converted / Hybrid]  
+- **ICD Registered Entity:**  
+
+---
+
+## 2. Rights Source Attribution
+
+- **Design Ownership:**  
+- **IP Origins (e.g., SBIR, Commercial, Gov-Funded):**  
+- **Open Hardware Licenses Referenced:** [e.g., CERN OHL, Solderpad]  
+- **Encapsulated Proprietary Blocks (if any):**  
+
+---
+
+## 3. Fabrication and Assembly Chain
+
+- **Primary Fabrication Location:**  
+- **Sovereign Fab?** [Yes / No]  
+- **Use of Foreign Substrates or Controlled IP:** [Yes / No – Detail]
+
+---
+
+## 4. Export Classification and Controls
+
+- **ITAR Status:**  
+- **ECCN (if known):**  
+- **Exportable to Allies?** [Yes / No / With Restrictions]
+
+---
+
+## 5. Attestation
+
+I affirm that the above statements are accurate and complete, and that this hardware is declared in good faith under ICD HW-ICD licensing protocols and applicable U.S. export law.
+
+| Name | Title | Organization | Signature | Date |
+|------|-------|--------------|-----------|------|
+|      |       |              |           |      |
+
+---
+
+*Filed under authority of the ICD Steering Body Hardware Registration Mandate*

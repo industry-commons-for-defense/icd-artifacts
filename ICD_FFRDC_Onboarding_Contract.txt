@@ -1,0 +1,34 @@
+
+# ICD FFRDC Onboarding Contract Template
+
+**Version 1.0 – May 2025**
+
+## Preamble
+
+This onboarding agreement certifies [FFRDC Name] as an Industry Commons for Defense (ICD) participant, eligible for trusted integrator status and unrestricted ICD component access under Tier 0 conditions.
+
+## Terms
+
+1. **Compliance Obligations**
+   - Use CRDS and HRDS in all component contributions
+   - Submit lineage, red-team results, and metadata for any ICD-governed system
+
+2. **Rights and Access**
+   - Authorized to access classified ICD repositories (Tier 0)
+   - Authority to submit governance proposals via ICD Steering Body observer role
+
+3. **Restrictions**
+   - May not encapsulate ICD-funded outputs in proprietary packages
+   - Must disclose any downstream dual-use applications
+
+4. **Security Requirements**
+   - Maintain ICD audit interface active at all times
+   - Respond to red-team activation within 5 business days
+
+## Effective Date and Signature
+
+| FFRDC Lead | Title | Signature | ICD Officer | Signature | Date |
+|------------|-------|-----------|-------------|-----------|------|
+|            |       |           |             |           |      |
+
+*Filed with the ICD Certification Authority and retained under audit for 10 years.*

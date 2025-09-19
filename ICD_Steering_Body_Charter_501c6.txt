@@ -1,0 +1,82 @@
+
+# ICD Steering Body Charter  
+**Governance Framework for the Industry Commons for Defense (ICD)**  
+**Organized under 501(c)(6) Nonprofit Structure**  
+**Version 1.0 – May 2025**
+
+---
+
+## Article I: Name and Legal Structure
+
+The governing entity of the Industry Commons for Defense shall be known as the **ICD Steering Body** and shall be organized as a 501(c)(6) nonprofit association under the laws of the United States. Its mission is to foster industry-wide collaboration, open standards, modular interoperability, and secure innovation in defense-related technologies.
+
+---
+
+## Article II: Purpose
+
+The ICD Steering Body shall:
+- Define and maintain ICD licensing frameworks (SW-ICD, HW-ICD, Model-ICD, Data-ICD)
+- Approve compliance checklists, contribution protocols, and audit standards
+- Facilitate transparent governance and cross-sector coordination among U.S. Government, FFRDCs, UARCs, industry (both traditional and nontraditional), and allied coalition partners
+- Maintain alignment with DoD modernization goals and statutory compliance under 10 U.S.C. § 3458 and § 4022
+
+---
+
+## Article III: Composition
+
+The Steering Body shall include representatives from the following core constituencies:
+1. **Government Members:** Appointed by DoD components, including CIO, CDAO, OUSD(R&E), OUSD(A&S), and Joint Staff.
+2. **Federally Funded Research and Development Centers (FFRDCs) and UARCs**
+3. **Industry Members:** Traditional defense contractors and nontraditional commercial entities
+4. **Technical Advisory Council (TAC):** Non-voting subject-matter experts in software, hardware, AI, and open ecosystems
+
+Membership is contingent on compliance with ICD participation terms and voting eligibility criteria.
+
+---
+
+## Article IV: Governance Process
+
+### 4.1 Decision Records
+All major decisions must be recorded in a formal Decision Record (DR), including:
+- Proposals
+- Voting results
+- Rationale
+- Implementation plan
+
+### 4.2 Proposal Workflow
+- Follows a modified IETF-style RFC process
+- Open submission by any Steering Body member
+- Public comment period (minimum 30 days)
+- Voting threshold: 2/3 supermajority of voting members
+
+### 4.3 Working Groups
+- Established to develop or refine specific ICD components (e.g., SBOM checklist, export control overlays, licensing schema)
+- Operate under charters approved by the Steering Body
+
+---
+
+## Article V: Enforcement Powers
+
+The Steering Body may:
+- Trigger **clawback mechanisms** for IP misuse, lineage obfuscation, or noncompliance
+- Approve or revoke ICD Certification for vendors or contributors
+- Refer egregious violations to DoD legal authorities or appropriate federal enforcement bodies
+
+---
+
+## Article VI: Financial Stewardship
+
+As a 501(c)(6), the Steering Body may:
+- Accept membership dues, donations, and government support
+- Reinvest funds in governance operations, tools, audits, education, and outreach
+- Maintain audited financial transparency and IRS compliance
+
+---
+
+## Article VII: Amendments
+
+This charter may be amended by a 3/4 vote of the Steering Body, with 30-day prior notice and documented Decision Record.
+
+---
+
+*Authorized and ratified by the Founding Members of the ICD Steering Body, under the laws of the United States, May 2025.*

@@ -1,0 +1,74 @@
+
+# ICD Emergency Override Protocols
+
+**Version 1.0 – May 2025**
+
+---
+
+## 1. Purpose
+
+To establish secure and lawful procedures for activating emergency override powers within the Industry Commons for Defense (ICD) ecosystem. These protocols apply during national emergencies, wartime conditions, or discovery of adversarial compromise in critical systems.
+
+---
+
+## 2. Authority to Invoke
+
+Emergency Override may be activated by:
+
+- Secretary of Defense  
+- President of the United States  
+- Designated Deputy Secretary or ASD with delegated wartime powers  
+- ICD Steering Body (supermajority vote with supporting OGC validation)
+
+---
+
+## 3. Triggers for Activation
+
+- Detection of adversarial poisoning or backdoor in operational AI  
+- Breakdown in sovereign access to critical model weights or hardware IP  
+- Wartime mobilization requiring immediate use of ICD-governed components  
+- Refusal by vendor or integrator to comply with lawful audit or red-team intervention
+
+---
+
+## 4. Scope of Override Powers
+
+Upon activation, the following rights are granted to the U.S. Government and designated ICD personnel:
+
+- **Seizure of full access to software, hardware, model, and dataset assets**  
+- **Suspension of all commercial restrictions** including licensing, NDAs, and proprietary protections  
+- **Right to replicate, alter, or reassign integration and deployment**  
+- **Mandated coalition-level disclosure or lockdown, based on classification tier**
+
+---
+
+## 5. Secure Execution Protocols
+
+- All override requests must be logged with incident ID and timestamp  
+- All override actions require co-signature of OGC, Cyber Command Liaison, and ICD Security Officer  
+- Chain of custody documentation must be preserved for future review or declassification
+
+---
+
+## 6. Termination and Postmortem
+
+Override status remains active until:
+- The triggering condition is neutralized  
+- A formal deactivation order is issued by invoking authority  
+- ICD Steering Body votes to close override condition under verified safe posture
+
+A full post-incident report must be published within 60 days and archived by the ICD Secretariat.
+
+---
+
+## 7. Legal Foundations
+
+These protocols are authorized under:
+- 10 U.S.C. § 394, § 3458, and § 4022  
+- Executive Orders relating to wartime acquisition and national security  
+- DFARS 252.227-7014 and Government Purpose Rights clauses  
+- ICD Charter and License emergency provisions
+
+---
+
+*Filed in accordance with ICD Wartime Safeguard Activation Doctrine*
