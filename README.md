@@ -8,13 +8,13 @@ The ICD initiative establishes a collaborative framework enabling transparent, m
 
 ## Repository Contents
 
-### Licenses
+### Licenses (`licenses/`)
 - **SW-ICD_License_v1.0_May2025.txt** - Software licensing framework
 - **HW-ICD_License_v1.0_May2025.txt** - Hardware licensing framework
 - **Data-ICD_License_v1.0_May2025.txt** - Data sharing and usage license
 - **Model-ICD_License_v1.0_May2025.txt** - AI/ML model licensing framework
 
-### Templates
+### Templates (`templates/`)
 - **ICD_CRDS_Template_v1.0_May2025.txt** - Capability Requirements Data Sheet
 - **ICD_CRDS_Code_Template_v1.0_May2025.txt** - Code-specific CRDS template
 - **ICD_HRDS_Template_v1.0_May2025.txt** - Hardware Requirements Data Sheet
@@ -22,18 +22,18 @@ The ICD initiative establishes a collaborative framework enabling transparent, m
 - **ICD_Decision_Record_Template.txt** - Standardized decision documentation
 - **ICD_Clawback_Notification_Template.txt** - Rights clawback notification
 
-### Governance Documents
+### Governance Documents (`governance/`)
 - **ICD_Steering_Body_Charter_501c6.txt** - Governance structure and authority
 - **ICD_Certification_Authority_Charter_v1.0.txt** - Certification processes
 - **ICD_Coalition_Disclosure_Tiers_v1.0.txt** - International sharing framework
 - **ICD_Emergency_Override_Protocols_v1.0.txt** - Emergency response procedures
 
-### Technical Specifications
+### Technical Specifications (`technical/`)
 - **ICD_Metadata_Schema_Classification_Releasability_v1.0.txt** - Metadata standards
 - **ICD_Federated_Audit_Ledger_Schema_v1.0.txt** - Audit trail specifications
 - **ICD_Model_Testing_Guidance.txt** - AI/ML testing standards
 
-### Operational Documents
+### Operational Documents (`operational/`)
 - **ICD_Field_Deployment_Binder.txt** - Deployment procedures
 - **ICD_Partner_Onboarding_Kit.txt** - Partner integration guide
 - **ICD_FFRDC_Onboarding_Contract.txt** - FFRDC-specific onboarding
@@ -58,9 +58,9 @@ All contributions and usage must comply with:
 ## Support
 
 For questions or support, consult:
-- ICD_Steering_Body_Charter_501c6.txt for governance inquiries
-- ICD_Partner_Onboarding_Kit.txt for partnership details
-- ICD_Certification_Authority_Charter_v1.0.txt for certification questions
+- governance/ICD_Steering_Body_Charter_501c6.txt for governance inquiries
+- operational/ICD_Partner_Onboarding_Kit.txt for partnership details
+- governance/ICD_Certification_Authority_Charter_v1.0.txt for certification questions
 
 ## Version
 

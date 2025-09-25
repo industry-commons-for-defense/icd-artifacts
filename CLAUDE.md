@@ -8,12 +8,13 @@ This is the Industry Commons for Defense (ICD) Artifacts repository, containing 
 
 ## Repository Structure
 
-The repository contains plain text documents organized into four categories:
+The repository contains plain text documents organized into five directories:
 
-1. **License Documents** - SW-ICD, HW-ICD, Data-ICD, and Model-ICD licenses defining terms for different artifact types
-2. **Templates** - CRDS (Capability Requirements Data Sheets), HRDS (Hardware Requirements Data Sheets), and operational templates
-3. **Governance Documents** - Charters, protocols, and disclosure frameworks
-4. **Technical Specifications** - Metadata schemas, audit ledger formats, and testing guidance
+1. **licenses/** - SW-ICD, HW-ICD, Data-ICD, and Model-ICD licenses defining terms for different artifact types
+2. **templates/** - CRDS (Capability Requirements Data Sheets), HRDS (Hardware Requirements Data Sheets), and operational templates
+3. **governance/** - Charters, protocols, and disclosure frameworks
+4. **technical/** - Metadata schemas, audit ledger formats, and testing guidance
+5. **operational/** - Field deployment guides, partner onboarding, and operational playbooks
 
 ## Working with Documents
 
@@ -59,7 +60,7 @@ When working in this repository:
 ## Common Tasks
 
 ### Adding New Documents
-Place new documents in the root directory following the naming convention. Update README.md to include the new document in the appropriate section.
+Place new documents in the appropriate directory (licenses/, templates/, governance/, technical/, or operational/) following the naming convention. Update README.md to include the new document in the appropriate section.
 
 ### Updating Existing Documents
 Preserve version history in the document header. Consider whether changes require incrementing the version number in the filename.
