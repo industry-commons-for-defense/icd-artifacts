@@ -1,7 +1,7 @@
 
 # Model Industry Commons for Defense (Model-ICD) License
 
-**Version 1.0 – May 2025**
+**Version 1.0.1 – December 2024**
 
 ---
 
@@ -33,7 +33,21 @@ Contributors grant to the U.S. Government and ICD-aligned entities:
 
 ---
 
-## 4. Lineage Disclosure and Audit Requirements
+## 4. Data Rights Assertions
+
+Contributors retain all rights to their original contributions and may assert data rights at their discretion when delivering to the U.S. Government. The ICD framework operates independently of federal acquisition data rights categories, enabling both business-to-business collaboration and government delivery.
+
+For industry participants:
+- Contributors maintain exclusive rights to their specific contributions as tracked in the ICD Metadata Schema
+- Derivative works must identify constituent components per the Model Bill of Materials (MBOM)
+- Rights to integrated systems are determined by the collective rights of individual components
+
+For government deliverables:
+- Models developed with government funding may carry unlimited rights per applicable regulations
+- Mixed-funding scenarios allow negotiated rights assertions per 10 U.S.C. § 3458
+- Privately-developed contributions may assert restricted rights as negotiated
+
+## 5. Lineage Disclosure and Audit Requirements
 
 Each model must be accompanied by:
 - A full **Model Bill of Materials (MBOM)** including architecture, training dataset references, source code, and hash-verified weights
@@ -43,7 +57,7 @@ Each model must be accompanied by:
 
 ---
 
-## 5. Prohibited Practices
+## 6. Prohibited Practices
 
 Contributors may not:
 - Obscure the origin of open weights to assert false proprietary claims
@@ -53,7 +67,7 @@ Contributors may not:
 
 ---
 
-## 6. Adversarial Safeguards Clause
+## 7. Adversarial Safeguards Clause
 
 Models deployed in ICD-aligned systems must:
 - Undergo red-team testing prior to field use
@@ -62,7 +76,7 @@ Models deployed in ICD-aligned systems must:
 
 ---
 
-## 7. Emergency Reclaim Clause
+## 8. Emergency Reclaim Clause
 
 In the event of national security threat, adversarial compromise, or wartime declaration, the U.S. Government may:
 - **Seize full control of weights, training artifacts, and derivative models**
@@ -71,7 +85,7 @@ In the event of national security threat, adversarial compromise, or wartime dec
 
 ---
 
-## 8. Compatibility
+## 9. Compatibility
 
 Model-ICD is designed to be compatible with:
 - Apache 2.0, MIT, BSD
@@ -81,7 +95,7 @@ Model-ICD is designed to be compatible with:
 
 ---
 
-## 9. Enforcement
+## 10. Enforcement
 
 Violations may result in:
 - Model rights clawback and public re-release
@@ -90,7 +104,7 @@ Violations may result in:
 
 ---
 
-## 10. Jurisdiction
+## 11. Jurisdiction
 
 This license is governed by U.S. federal law and enforced by the ICD Steering Body with escalation provisions for national defense interest.
 

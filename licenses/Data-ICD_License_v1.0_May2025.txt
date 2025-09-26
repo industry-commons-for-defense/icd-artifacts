@@ -1,7 +1,7 @@
 
 # Data Industry Commons for Defense (Data-ICD) License
 
-**Version 1.0 – May 2025**
+**Version 1.0.1 – December 2024**
 
 ---
 
@@ -25,13 +25,27 @@ This license applies to:
 ## 3. Rights Granted
 
 Contributors grant to the U.S. Government and ICD-aligned entities:
-- **Unlimited rights** to use, copy, preprocess, and annotate data
-- **Right to train and fine-tune models** using the data
-- **Right to redistribute** data for government or coalition mission use (subject to classification and releasability controls)
+- **Non-exclusive rights** to use, copy, preprocess, and annotate data within the ICD ecosystem
+- **Right to train and fine-tune models** using the data for ICD-aligned purposes
+- **Right to redistribute** data subject to classification, releasability, and contributor-specified restrictions
 
 ---
 
-## 4. Required Disclosures
+## 4. Data Rights Assertions
+
+Contributors retain all rights to their original contributions and may assert data rights at their discretion when delivering to the U.S. Government. The ICD framework operates independently of federal acquisition data rights categories, enabling both business-to-business collaboration and government delivery.
+
+For industry participants:
+- Contributors maintain exclusive rights to their specific contributions as tracked in the ICD Metadata Schema
+- Derivative works must identify constituent components per the Data Bill of Materials (DBOM)
+- Rights to integrated systems are determined by the collective rights of individual components
+
+For government deliverables:
+- Data developed with government funding may carry unlimited rights per applicable regulations
+- Mixed-funding scenarios allow negotiated rights assertions per 10 U.S.C. § 3458
+- Privately-developed contributions may assert restricted rights as negotiated
+
+## 5. Required Disclosures
 
 Each dataset must include:
 - A complete **Data Bill of Materials (DBOM)**  
@@ -42,7 +56,7 @@ Each dataset must include:
 
 ---
 
-## 5. Data Integrity and Security
+## 6. Data Integrity and Security
 
 All data must:
 - Be scanned for known poisoning, backdoors, or hallucination risks  
@@ -52,7 +66,7 @@ All data must:
 
 ---
 
-## 6. Foreign-Origin Disclosure Clause
+## 7. Foreign-Origin Disclosure Clause
 
 Any data with partial or full foreign origin (collection, processing, or platform) must:
 - Be tagged explicitly in the DBOM  
@@ -61,7 +75,7 @@ Any data with partial or full foreign origin (collection, processing, or platfor
 
 ---
 
-## 7. Emergency Use Clause
+## 8. Emergency Use Clause
 
 During national emergencies or wartime:
 - The U.S. Government may extract, replicate, or redistribute any ICD-governed data  
@@ -70,7 +84,7 @@ During national emergencies or wartime:
 
 ---
 
-## 8. Compatibility
+## 9. Compatibility
 
 The Data-ICD License is designed to interoperate with:
 - Creative Commons (CC BY, CC0)  
@@ -80,7 +94,7 @@ The Data-ICD License is designed to interoperate with:
 
 ---
 
-## 9. Violations and Enforcement
+## 10. Violations and Enforcement
 
 Violations may trigger:
 - Data rights clawback  
@@ -90,7 +104,7 @@ Violations may trigger:
 
 ---
 
-## 10. Jurisdiction
+## 11. Jurisdiction
 
 This license is governed by U.S. federal law and enforced by the ICD Steering Body, with escalation to relevant defense oversight bodies if necessary.
 

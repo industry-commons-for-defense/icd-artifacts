@@ -1,7 +1,7 @@
 
 # Software Industry Commons for Defense (SW-ICD) License
 
-**Version 1.0 – May 2025**
+**Version 1.0.1 – December 2024**
 
 ## 1. Purpose
 
@@ -40,9 +40,19 @@ Contributors may not:
 - Embed call-home, obfuscation, or anti-analysis measures
 - Restrict or interfere with red-teaming or operational validation
 
-## 6. Government Purpose Rights
+## 6. Data Rights Assertions
 
-All software developed using ICD funding, data, or infrastructure carries **unlimited rights** as defined by DFARS 252.227-7014 and 10 U.S.C. § 3458. If commingled with proprietary components, those components must be clearly partitioned, auditable, and separately licensed.
+Contributors retain all rights to their original contributions and may assert data rights at their discretion when delivering to the U.S. Government. The ICD framework operates independently of federal acquisition data rights categories, enabling both business-to-business collaboration and government delivery.
+
+For industry participants:
+- Contributors maintain exclusive rights to their specific contributions as tracked in the ICD Metadata Schema
+- Derivative works must identify constituent components per the Software Bill of Materials (SBOM)
+- Rights to integrated systems are determined by the collective rights of individual components
+
+For government deliverables:
+- Software developed with government funding may carry unlimited rights per DFARS 252.227-7014
+- Mixed-funding scenarios allow negotiated rights assertions per 10 U.S.C. § 3458
+- Privately-developed contributions may assert restricted rights as negotiated
 
 ## 7. Compliance and Termination
 

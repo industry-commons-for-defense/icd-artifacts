@@ -1,7 +1,7 @@
 
 # Hardware Industry Commons for Defense (HW-ICD) License
 
-**Version 1.0 – May 2025**
+**Version 1.0.1 – December 2024**
 
 ## 1. Purpose
 
@@ -24,14 +24,28 @@ Contributors grant to the U.S. Government and ICD-aligned entities:
 - **Modification and integration rights** into composite systems
 - **Right to disclose to coalition partners** for joint manufacturing, testing, or fielding
 
-## 4. Design Lineage and Transparency
+## 4. Data Rights Assertions
+
+Contributors retain all rights to their original contributions and may assert data rights at their discretion when delivering to the U.S. Government. The ICD framework operates independently of federal acquisition data rights categories, enabling both business-to-business collaboration and government delivery.
+
+For industry participants:
+- Contributors maintain exclusive rights to their specific contributions as tracked in the ICD Metadata Schema
+- Derivative works must identify constituent components per the Hardware Bill of Materials (HBOM)
+- Rights to integrated systems are determined by the collective rights of individual components
+
+For government deliverables:
+- Hardware developed with government funding may carry unlimited rights per DFARS 252.227-7013
+- Mixed-funding scenarios allow negotiated rights assertions per 10 U.S.C. § 3458
+- Privately-developed contributions may assert restricted rights as negotiated
+
+## 5. Design Lineage and Transparency
 
 All hardware submissions must include:
 - **Hardware Bill of Materials (HBOM)**
 - Design lineage, license history, and supply chain of critical components
 - Disclosure of any foreign-fabricated elements or ITAR-sensitive parts
 
-## 5. Wartime Activation Clause
+## 6. Wartime Activation Clause
 
 Upon declaration of a national emergency or wartime posture by the President of the United States or Secretary of Defense, the U.S. Government is authorized to:
 - **Seize full rights to all ICD-covered hardware designs and components**
@@ -40,35 +54,35 @@ Upon declaration of a national emergency or wartime posture by the President of 
 
 This clause is **non-negotiable** and **survives any contractual or licensing limitations** placed by vendors or subcontractors.
 
-## 6. Proprietary Encapsulation Restrictions
+## 7. Proprietary Encapsulation Restrictions
 
 Vendors may not:
 - Wrap open hardware or government-funded designs in proprietary enclosures without clear partitioning
 - Impede red-teaming, diagnostics, or maintenance with technical or legal controls
 - Withhold firmware source code for embedded systems deployed in ICD-aligned contexts
 
-## 7. Sovereign Fabrication Clause
+## 8. Sovereign Fabrication Clause
 
 Whenever feasible, fabrication of mission-critical or security-sensitive components shall:
 - Be conducted on-shore or through vetted sovereign fabs
 - Use open PDKs (process design kits) when aligned with national security
 - Include side-channel and tamper-resistance certifications
 
-## 8. Enforcement and Remedies
+## 9. Enforcement and Remedies
 
 Violations of this license may result in:
 - Government seizure of design files
 - Public re-release of critical IP under the HW-ICD license
 - Debarment from ICD-aligned consortia or projects
 
-## 9. Compatibility
+## 10. Compatibility
 
 This license is designed to interoperate with:
 - CERN OHL, TAPR, and Solderpad hardware licenses
 - SW-ICD and Model-ICD license frameworks
 - Government purpose rights under DFARS and 10 U.S.C. § 3458
 
-## 10. Jurisdiction
+## 11. Jurisdiction
 
 This license is governed by U.S. federal law and enforced by the ICD Steering Body, with escalation to the Department of Defense or National Security Council if national interest is implicated.
 
